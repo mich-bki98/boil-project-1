@@ -23,8 +23,8 @@
             <Label layoutX="100.0" layoutY="90.0" text="D2 / podaż 40" />
             <Label layoutX="100.0" layoutY="121.0" text="D3 / podaż 10" />
             <Label layoutX="185.0" layoutY="30.0" text="O1/ pop 15" />
-            <Label layoutX="263.0" layoutY="30.0" text="O2/ pop 25" />
-            <Label layoutX="341.0" layoutY="30.0" text="O2/ pop 30" />
+            <Label layoutX="263.0" layoutY="30.0" text="O2/ pop 20" />
+            <Label layoutX="341.0" layoutY="30.0" text="O2/ pop 35" />
             <Label layoutX="215.0" layoutY="60.0" text="4" />
             <Label layoutX="293.0" layoutY="60.0" text="7" />
             <Label layoutX="215.0" layoutY="90.0" text="8" />
