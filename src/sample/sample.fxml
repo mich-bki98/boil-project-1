@@ -4,39 +4,53 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.shape.*?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<VBox prefHeight="350.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
   <children>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="465.0" VBox.vgrow="ALWAYS">
       <children>
-            <Button fx:id="button" layoutX="271.0" layoutY="235.0" mnemonicParsing="false" text="Oblicz" />
-            <Line endX="237.5" endY="-0.20710676908493042" layoutX="180.0" layoutY="57.0" startX="-80.0" AnchorPane.topAnchor="30.0" />
+            <Button fx:id="button" layoutX="151.0" layoutY="220.0" mnemonicParsing="false" text="Oblicz" />
             <Line endX="238.5" endY="-1.2426408529281616" layoutX="180.0" layoutY="80.0" startX="-80.0" AnchorPane.topAnchor="60.0" />
             <Line endX="237.5" endY="-0.20710676908493042" layoutX="180.0" layoutY="102.0" startX="-80.0" AnchorPane.topAnchor="90.0" />
             <Line endX="238.5" endY="0.5000160336494446" layoutX="180.0" layoutY="125.0" startX="-80.0" AnchorPane.topAnchor="120.0" />
-            <Line endX="237.5" layoutX="180.0" layoutY="145.0" startX="-80.0" AnchorPane.topAnchor="150.0" />
-            <Line endX="-82.5" endY="-77.0" layoutX="182.0" layoutY="228.0" startX="-82.5" startY="-197.0" />
+            <Line endX="237.5" layoutX="180.0" layoutY="151.0" startX="-80.0" AnchorPane.topAnchor="151.0" />
             <Line endX="-67.0" endY="102.0" layoutX="251.0" layoutY="49.0" startX="-67.0" startY="-19.0" />
             <Line endX="-90.0" endY="-50.0" layoutX="352.0" layoutY="201.0" startX="-90.0" startY="-170.0" />
             <Line endX="-73.0" endY="-74.0" layoutX="413.0" layoutY="225.0" startX="-73.0" startY="-194.0" />
             <Line endX="-87.0" endY="-56.0" layoutX="505.0" layoutY="207.0" startX="-87.0" startY="-176.0" />
-            <Label layoutX="100.0" layoutY="60.0" text="D1 / podaż 20" />
-            <Label layoutX="100.0" layoutY="90.0" text="D2 / podaż 40" />
-            <Label layoutX="100.0" layoutY="121.0" text="D3 / podaż 10" />
-            <Label layoutX="185.0" layoutY="30.0" text="O1/ pop 15" />
-            <Label layoutX="263.0" layoutY="30.0" text="O2/ pop 20" />
-            <Label layoutX="341.0" layoutY="30.0" text="O2/ pop 35" />
-            <Label layoutX="215.0" layoutY="60.0" text="4" />
-            <Label layoutX="293.0" layoutY="60.0" text="7" />
-            <Label layoutX="215.0" layoutY="90.0" text="8" />
-            <Label layoutX="293.0" layoutY="90.0" text="10" />
-            <Label layoutX="371.0" layoutY="60.0" text="2" />
-            <Label layoutX="371.0" layoutY="90.0" text="4" />
-            <TextArea editable="false" layoutX="14.0" layoutY="224.0" prefHeight="162.0" prefWidth="182.0" text="Cena sprzedaży:&#10;O1 - 18&#10;O2 - 16&#10;O3 - 15&#10;&#10;Cena zakupu:&#10;D1 - 7&#10;D2 - 8&#10;D3 - 9" />
-            <Label layoutX="215.0" layoutY="121.0" text="4" />
-            <Label layoutX="297.0" layoutY="121.0" text="5" />
-            <Label layoutX="371.0" layoutY="121.0" text="6" />
-            <Label layoutX="286.0" layoutY="277.0" text="Wynik:" />
-            <Label fx:id="wynik" layoutX="340.0" layoutY="277.0" />
+            <Label layoutX="120.0" layoutY="69.0" text="D1" />
+            <Label layoutX="120.0" layoutY="99.0" text="D2" />
+            <Label layoutX="120.0" layoutY="130.0" text="D3" />
+            <Label layoutX="196.0" layoutY="37.0" text="O1" />
+            <Label layoutX="278.0" layoutY="37.0" text="O2" />
+            <Label layoutX="355.0" layoutY="37.0" text="O2" />
+            <Label layoutX="241.0" layoutY="224.0" text="Wynik:" />
+            <Label fx:id="wynik" layoutX="340.0" layoutY="277.0" prefHeight="17.0" prefWidth="29.0" />
+            <TextField fx:id="d1supp" layoutX="151.0" layoutY="65.0" prefHeight="25.0" prefWidth="29.0" text="20" />
+            <TextField fx:id="d2supp" layoutX="151.0" layoutY="95.0" prefHeight="25.0" prefWidth="29.0" text="40" />
+            <TextField fx:id="d3supp" layoutX="151.0" layoutY="126.0" prefHeight="17.0" prefWidth="29.0" text="10" />
+            <Label layoutX="99.0" layoutY="39.0" text="Podaż" />
+            <Label layoutX="150.0" layoutY="30.0" text="Popyt" />
+            <Line endX="68.5" endY="30.0" layoutX="116.0" layoutY="30.0" startX="-13.0" />
+            <TextField fx:id="o1demand" layoutX="219.0" layoutY="33.0" prefHeight="25.0" prefWidth="29.0" text="15" />
+            <TextField fx:id="o2demand" layoutX="300.0" layoutY="33.0" prefHeight="25.0" prefWidth="29.0" text="20" />
+            <TextField fx:id="o3demand" layoutX="378.0" layoutY="33.0" prefHeight="25.0" prefWidth="29.0" text="35" />
+            <TextField fx:id="d1o1" layoutX="208.0" layoutY="65.0" prefHeight="25.0" prefWidth="29.0" text="4" />
+            <TextField fx:id="d1o2" layoutX="286.0" layoutY="65.0" prefHeight="25.0" prefWidth="29.0" text="7" />
+            <TextField fx:id="d1o3" layoutX="360.0" layoutY="65.0" prefHeight="25.0" prefWidth="29.0" text="2" />
+            <TextField fx:id="d2o1" layoutX="208.0" layoutY="95.0" prefHeight="25.0" prefWidth="29.0" text="8" />
+            <TextField fx:id="d2o2" layoutX="286.0" layoutY="95.0" prefHeight="25.0" prefWidth="29.0" text="10" />
+            <TextField fx:id="d2o3" layoutX="360.0" layoutY="95.0" prefHeight="25.0" prefWidth="29.0" text="4" />
+            <TextField fx:id="d3o1" layoutX="208.0" layoutY="126.0" prefHeight="25.0" prefWidth="29.0" text="4" />
+            <TextField fx:id="d3o2" layoutX="286.0" layoutY="126.0" prefHeight="25.0" prefWidth="29.0" text="5" />
+            <TextField fx:id="d3o3" layoutX="360.0" layoutY="126.0" prefHeight="25.0" prefWidth="29.0" text="6" />
+            <Label layoutX="127.0" layoutY="161.0" text="Sprzedaż" />
+            <TextField fx:id="sello1" layoutX="208.0" layoutY="157.0" prefHeight="25.0" prefWidth="29.0" text="18" />
+            <TextField fx:id="sello2" layoutX="286.0" layoutY="157.0" prefHeight="25.0" prefWidth="29.0" text="16" />
+            <TextField fx:id="sello3" layoutX="357.0" layoutY="157.0" prefHeight="25.0" prefWidth="29.0" text="15" />
+            <Label layoutX="419.0" layoutY="37.0" text="Kupno" />
+            <TextField fx:id="buyd1" layoutX="422.0" layoutY="65.0" prefHeight="25.0" prefWidth="29.0" text="7" />
+            <TextField fx:id="buyd2" layoutX="422.0" layoutY="95.0" prefHeight="25.0" prefWidth="29.0" text="8" />
+            <TextField fx:id="buyd3" layoutX="422.0" layoutY="126.0" prefHeight="25.0" prefWidth="29.0" text="9" />
       </children>
     </AnchorPane>
   </children>
